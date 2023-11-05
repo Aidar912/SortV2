@@ -1,0 +1,92 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Сортировку Шелла иногда называют “сортировкой с уменьшением инкремента”. 
+Она улучшает сортировку вставками, разбивая первоначальный список на несколько подсписков, 
+каждый из которых сортируется по отдельности. Оригинальный способ выбора таких подсписков - 
+ключевая идея сортировки Шелла. 
+</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Сортировка прядей — это рекурсивный алгоритм сортировки, который сортирует
+ элементы списка в порядке возрастания. Он имеет наихудшую временную сложность O (n²), 
+которая возникает, когда входной список отсортирован в обратном порядке.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>IntroSort — гибридный алгоритм сортировки, сочетающий различные подходы.
+
+Данный алгоритм является относительно новым и был придуман Дэвидом Мюссером. 
+На массивах данных, которые содержат упорядоченные подмассивы, алгоритм Дэвида 
+Мюссера показывает себя намного лучше других сортировок. 
+
+
+Алгоритм IntroSort состоит из нескольких частей:
+
+Начало.
+Шаг 1. Входной массив разделяется на подмассивы фиксированной длины,
+ вычисляемой определённым образом.
+Шаг 2. Каждый подмассив сортируется сортировкой вставками,
+ сортировкой пузырьком или любой другой устойчивой сортировкой.
+Шаг 3. Отсортированные подмассивы объединяются в один массив
+ с помощью модифицированной сортировки слиянием.
+Конец.
+</value>
+  </data>
+</root>
